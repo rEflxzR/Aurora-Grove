@@ -1,0 +1,91 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+    }
+}
+
+.nav-link{
+    font-size: 1.45rem;
+}
+
+#main-text{
+    background: url(../Images/main.jpeg) bottom center / cover no-repeat;
+    position: relative;
+    min-height: 750px;
+}
+
+.topnav:hover{
+    border-bottom: 1px solid white;
+}
+
+.navbar-brand h3{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#book{
+    background: #36b3a8;
+}
+
+#dark{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#main-textcon{
+    font-family: "Questrial", sans-serif;
+    z-index: 1;
+}
+
+.container h1{
+    font-size: 5.5rem;
+    font-weight: 400;
+}
+
+#con-1 h2{
+    font-weight: 450;
+}
+
+#con-2 h3{
+    font-weight: 500;
+}
+
+.qguests{
+    color: #36b3a8;
+    opacity: 0.8;
+}
+
+
+.carousel-item img{
+    height: 400px;
+    width: 350px;
+}
+
+.qusers{
+    color: #36b3a8;
+    font-size: 1.3rem;
+}
+
+#footer{
+    background-color: black;
+    color: black;
+}
+
+#bottomnav li a{
+    font-weight: 250;
+}
