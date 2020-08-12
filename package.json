@@ -1,0 +1,23 @@
+{
+  "name": "aurora-grove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverside.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serverside.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rEflxzR/Aurora-Grove.git"
+  },
+  "author": "PC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rEflxzR/Aurora-Grove/issues"
+  },
+  "homepage": "https://github.com/rEflxzR/Aurora-Grove#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
